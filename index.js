@@ -3,7 +3,7 @@ const connectToMongo = require('./db')
 const express = require('express')
 var cors = require('cors')
 const app = express()
-const port = 3000
+const port = "https://blue-swallow-sock.cyclic.app/"
 
 app.use(express.json())
 app.use(cors())
